@@ -275,12 +275,24 @@
       panel.querySelector("#gsNext").innerHTML =
         q[1] ? `Next: ${q[1]}` : ``;
     }
+    function normalizeQuery(q) {
+      return q
+        .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
+        .trim();
+    }
+
     function begin() {
       const lines = panel.querySelector("#gsInput").value
-        .split("\n").map(l => l.trim()).filter(Boolean);
+        .split("\n")
+        .map(l => normalizeQuery(l))
+        .filter(Boolean);
+
       if (!lines.length) return;
-      store(lines); update(); search();
+      store(lines);
+      update();
+      search();
     }
+
     function search() {
       const q = load(); if (!q.length) return;
       location.href =
