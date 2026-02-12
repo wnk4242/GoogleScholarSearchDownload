@@ -16,23 +16,22 @@ It is useful for tasks such as collecting papers, checking reference lists, and 
 
 ### Search and save multiple papers quickly
 
-Paste a list of paper titles or DOIs into the extension panel. Each paper is searched one by one in Google Scholar. With a single click, you can save the paper to your Google Scholar Library before moving on to the next one.
+Paste a list of paper titles or DOIs into the extension panel. Papers are searched sequentially. With a single click, you can save the paper to your Google Scholar Library before moving on to the next one.
 <p align="center">
   <img src="pics/1.png" style="margin-left: 20px;" />
-</p>
-
-### Simple, minimalist control panel
-
-Everything is controlled through buttons you click. The panel is easy to navigate, lets you select only the papers you want, and includes select-all and deselect-all options for quick actions. The interface stays clean and focused, without unnecessary menus or clutter.
-
-<p align="center">
-  <img src="pics/3.png" style="margin-left: 20px;" />
 </p>
 
 ### Download PDFs from your library
 
 Download available PDFs for saved papers from your Google Scholar Library in one click. PDFs are saved automatically to your default Downloads folder, without repeated save pop-ups.
 
+<p align="center">
+  <img src="pics/3.png" style="margin-left: 20px;" />
+</p>
+
+### Simple, minimalist control panel
+
+A streamlined, minimalist control panel keeps the workflow fast and intuitive — just straightforward controls that let you get through your papers efficiently.
 <p align="center">
   <img src="pics/2.1.png" style="margin-left: 20px;" />
 </p>
@@ -71,15 +70,7 @@ The extension should now appear in your Chrome extensions list.
 2. The control panel should appear automatically
 3. You’re ready to search and download PDFs
 
----
 
-## Updating the extension
-
-If you make changes to the code:
-
-1. Go back to `chrome://extensions`
-2. Click the **Reload** button under the extension
-3. Refresh Google Scholar
 
 ---
 ## Privacy
