@@ -20,13 +20,18 @@ Paste a list of paper titles or DOIs into the extension panel. Each paper is sea
 <p align="center">
   <img src="pics/1.png" style="margin-left: 20px;" />
 </p>
+
 ### Download PDFs from your library
 
 Download available PDFs for saved papers from your Google Scholar Library in one click. PDFs are saved automatically to your default Downloads folder, without repeated save pop-ups.
 
+
 ### Simple, minimalist control panel
 
 Everything is controlled through buttons you click. The panel is easy to navigate, lets you select only the papers you want, and includes select-all and deselect-all options for quick actions. The interface stays clean and focused, without unnecessary menus or clutter.
+<p align="center">
+  <img src="pics/3.png" style="margin-left: 20px;" />
+</p>
 
 ---
 
