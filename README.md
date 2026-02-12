@@ -38,7 +38,50 @@ Download available PDFs for saved papers from your Google Scholar Library in one
 </p>
 
 ---
+## Installation
 
+You can install the extension locally in Chrome using Developer Mode.
+
+### Step 1: Download the repository
+
+Clone or download this repository to your computer.
+
+If you download the ZIP from GitHub:
+- Extract it
+- Open the extracted folder
+- Make sure you can see the folder named `gs-s&d`
+
+### Step 2: Open Chrome Extensions page
+
+1. Open Chrome
+2. Go to: `chrome://extensions`
+3. Turn on **Developer mode** (top right corner)
+
+### Step 3: Load the extension
+
+1. Click **Load unpacked**
+2. Select the `gs-s&d` folder (the folder that contains `manifest.json`)
+3. Click **Select Folder**
+
+The extension should now appear in your Chrome extensions list.
+
+### Step 4: Use the extension
+
+1. Open Google Scholar
+2. The control panel should appear automatically
+3. You’re ready to search and download PDFs
+
+---
+
+## Updating the extension
+
+If you make changes to the code:
+
+1. Go back to `chrome://extensions`
+2. Click the **Reload** button under the extension
+3. Refresh Google Scholar
+
+---
 ## Privacy
 
 This extension does not collect personal data, track browsing activity, or send information anywhere.
